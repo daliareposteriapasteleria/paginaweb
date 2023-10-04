@@ -1,14 +1,17 @@
 #home {
     width: 100%;
     height: 100vh;
-    background-image: url('../../../../assets/imgs/Home.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     color: antiquewhite;
     font-size: 20px;
 
+}
+
+#home img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
 }
 
 #home-txt {
@@ -20,18 +23,70 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-#home-txt h2{
+
+#home-txt h2 {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 50px;
     border-radius: 10px;
-    padding: 5px 0px;
+    padding: 20px 0px;
 }
-#home-txt p{
+
+#home-txt p {
     background: #0f0d0ea4;
     text-align: justify;
+    font-size: 23px;
     font-weight: 500;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 20px;
+}
+
+/* Responseive */
+
+@media (max-width: 850px) {
+
+    #home-txt {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    #home-txt h2 {
+        font-size: 40px;
+    }
+
+    #home-txt p {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 510px) {
+
+    #home-txt h2 {
+        font-size: 30px;
+    }
+
+    #home-txt p {
+        font-size: 18px;
+    }
+
+}
+
+
+@media (max-width: 382px) {
+
+    #home-txt h2 {
+        font-size: 25px;
+    }
+
+    #home-txt p {
+        font-size: 18px;
+    }
+
+    #home img {
+        object-fit:fill;
+    }
+
 }

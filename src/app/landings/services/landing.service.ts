@@ -18,4 +18,13 @@ export class landingService {
 
     constructor() { }
 
+
+    toggleMenu(): void {
+
+        const element = document.getElementById("hamburger-menu");
+
+        element!.classList.toggle("show");
+
+
+    }
 }

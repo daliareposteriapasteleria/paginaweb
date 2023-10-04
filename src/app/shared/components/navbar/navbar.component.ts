@@ -1,4 +1,5 @@
 import { Component, OnChanges } from '@angular/core';
+import { landingService } from 'src/app/landings/services/landing.service';
 
 @Component({
   selector: 'shared-navbar',
@@ -7,19 +8,23 @@ import { Component, OnChanges } from '@angular/core';
 })
 export class NavbarComponent {
 
-  public viewportOffset = window.scrollY;
+
+  constructor(private service: landingService) { }
 
 
-  toggleMenu(): void {
+  displayMenu(): void {
 
-    const element = document.getElementById("hamburger-menu");
-
-    element!.classList.toggle("show");
+    this.service.toggleMenu();
 
   }
 
-  
+  backHome(): void {
 
+    if (document.getElementsByClassName("show").length > 0)
+
+      this.service.toggleMenu();
+
+  }
 
 
 

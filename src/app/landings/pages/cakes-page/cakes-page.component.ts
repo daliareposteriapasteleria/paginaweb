@@ -13,4 +13,5 @@ export class CakesPageComponent {
   public tortas:Cake=this.service.tortas;
 
   constructor( private service:landingService){}
+
 }
