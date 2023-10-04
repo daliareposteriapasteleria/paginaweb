@@ -1,0 +1,20 @@
+<div class="container" id="cakes">
+    <div class="row">
+        <div class="col-6">
+            <div id="carousel-container">
+                <shared-slider [item]="tortas"></shared-slider>
+            </div>
+        </div>
+        <div class="col-6">
+            <div id="cake-txt" style="text-align: justify;">
+                <h2 style="margin-bottom: 20px;">{{ tortas.title }} </h2>
+                <P> {{ tortas.description }} </P>
+            </div>
+            <div id="btn">
+                <a href="https://api.whatsapp.com/send/?phone=573116407378" target="_blank">
+                    Personalizar Ahora
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,143 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 56px;
+    
+   
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+    
+
+
+}
+
+.nav-container {
+    background: #0f0d0ea4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0 5% 0 10%;
+    
+}
+
+.nav-container  a, p{
+    text-decoration: none;
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+.nav-container a:hover{
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+
+/* Estilos para div name container*/
+#name-container {
+    width: 200px;
+    height: 100%;
+    padding-top: 3px;
+    text-align: center;
+    
+}
+
+#name-container a,p{
+    margin: 0;
+    padding-top: 5px;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* Estilos para div links container*/
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para div nav link*/
+.nav-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    
+}
+
+.nav-link span {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link p {
+    margin: 0;
+    padding-top: 8px;
+    font-size: 19px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/* Estilos para div theme container*/
+
+#theme-container {
+    margin-left: 200px;
+}
+
+.container-button {
+    width: 40px;
+    height: 40px;
+}
+
+
+.theme-button {
+    width: 100%;
+    height: 100%;
+    background-color: #805AD5;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/* Estilos para menu hamburguesa*/
+#hamburger-menu {
+
+    display: none;
+    
+}
+.show{
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    width: 200px;
+    padding-left: 12%;
+    
+    background: rgba(255, 255, 255, 0.705);
+    border-radius: 10px;
+}
+
+#menu-btn {
+    display: none;
+    width: 40px;
+    height: 40px;   
+    margin-left: 10%;
+    
+}
+#menu-btn button{
+    width: 40px;
+         
+}
+
