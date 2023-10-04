@@ -81,12 +81,12 @@
         font-size: 25px;
     }
 
-    #home-txt p {
-        font-size: 18px;
-    }
+}
 
-    #home img {
-        object-fit:fill;
+@media (max-width: 316px) {
+
+    #home-txt h2 {
+        font-size: 24px;
     }
 
 }
