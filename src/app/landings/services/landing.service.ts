@@ -13,9 +13,22 @@ export class landingService {
                 './assets/imgs/cakes/flowers-cake.png',
                 './assets/imgs/cakes/paw-patrol-cake.png',
                 './assets/imgs/cakes/purple-cake.png',
-            ]
+            ],
+            txtBtn: 'Personalizar ahora',
+            class:'item-cake'
         }
 
+    public cupcakes: Cake =
+        {
+            title: 'CUPCAKES',
+            description: 'Bienvenido a nuestro rincón de cupcakes, donde la magia se mezcla con el sabor para crear experiencias inolvidables. En nuestra reposteria, no simplemente horneamos cupcakes, creamos pequeñas obras maestras de felicidad. ¿Por qué elegir nuestros cupcakes? Porque no son solo postres, son momentos de pura alegría y satisfacción.',
+            urls: [
+                './assets/imgs/cupcakes/flower-cupcakes.png',
+                './assets/imgs/cupcakes/purple-cupcakes.png',
+            ],
+            txtBtn: 'Comprar ahora',
+            class:'item-cupcake'
+        }
     constructor() { }
 
 

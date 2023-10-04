@@ -11,6 +11,8 @@ import { ContactPageComponent } from './landings/pages/contact-page/contact-page
 import { HomePageComponent } from './landings/pages/home-page/home-page.component';
 import { CardComponent } from './shared/components/card/card.component';
 import { SliderComponent } from './shared/components/slider/slider.component';
+import { ArticleComponent } from './landings/components/article/article.component';
+import { ArticleReverseComponent } from './landings/components/article-reverse/article-reverse.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { SliderComponent } from './shared/components/slider/slider.component';
     CustomersPageComponent,
     ContactPageComponent,
     CardComponent,
-    SliderComponent
+    SliderComponent,
+    ArticleComponent,
+    ArticleReverseComponent
   ],
   imports: [
     BrowserModule,

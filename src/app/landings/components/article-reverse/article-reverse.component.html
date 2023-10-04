@@ -1,0 +1,15 @@
+<div id="container">
+    <div id="article-txt" style="text-align: justify;">
+        <h2 style="margin-bottom: 20px;">{{ item.title }} </h2>
+        <P> {{ item.description }} </P>
+        <div id="btn">
+            <a href="https://api.whatsapp.com/send/?phone=573116407378" target="_blank">
+                {{item.txtBtn}}
+            </a>
+        </div>
+    </div>
+    <div id="article-carusel">
+        <shared-slider [imgs]="item"></shared-slider>
+    </div>
+
+</div>

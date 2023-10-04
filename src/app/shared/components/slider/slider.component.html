@@ -15,8 +15,8 @@
     </a>
 
     <ul id="slider">
-        <ng-container *ngFor="let url of item.urls; let i=index">
-            <li [style.z-index]="(i == 0)? 1:0" [ngStyle]="{opacity: (i==0)? 1:0}">
+        <ng-container *ngFor="let url of imgs.urls; let i=index">
+            <li [style.z-index]="(i == 0)? 1:0" [ngStyle]="{opacity: (i==0)? 1:0}" class="{{imgs.class}}">
                 <img src="{{url}}" alt="img">
             </li>
         </ng-container>

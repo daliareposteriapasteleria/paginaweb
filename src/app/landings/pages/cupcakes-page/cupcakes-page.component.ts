@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Cake } from '../../interfaces/cake.interface';
+import { landingService } from '../../services/landing.service';
 
 @Component({
   selector: 'cupcakes-page',
@@ -7,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class CupcakesPageComponent {
 
+  public cupcakes:Cake=this.service.cupcakes;
+
+  constructor( private service:landingService){}
 }

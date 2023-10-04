@@ -11,17 +11,17 @@ export class SliderComponent implements AfterViewInit {
 
 
 
-  public elements!: HTMLCollectionOf<HTMLElement>;
+  public elements!: any;
   public currentElement!: number;
   public nextElement!: number;
 
   @Input()
-  public item!: Cake;
+  public imgs!: Cake;
 
 
   ngAfterViewInit(): void {
 
-    this.elements = document.getElementsByTagName('li');
+    this.elements = document.getElementsByClassName(this.imgs.class);
     //find current card
     this.currentElement = 0;
 
