@@ -27,6 +27,7 @@
 }
 
 #home-txt h2 {
+    background: #0f0d0ea4;
     font-weight: 700;
     font-size: 50px;
     border-radius: 10px;
@@ -78,15 +79,10 @@
 @media (max-width: 382px) {
 
     #home-txt h2 {
-        font-size: 25px;
+        text-align: center;
+        font-size: 28px;
+        
     }
 
 }
 
-@media (max-width: 316px) {
-
-    #home-txt h2 {
-        font-size: 24px;
-    }
-
-}

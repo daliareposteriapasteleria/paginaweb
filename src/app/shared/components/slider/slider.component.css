@@ -1,11 +1,11 @@
-#container-slider
-{
+#container-slider {
     position: relative;
     display: block;
     width: 100%;
     height: 100%;
-    
+
 }
+
 #slider {
     position: relative;
     display: block;
@@ -14,6 +14,7 @@
     width: 100%;
     height: 100%;
 }
+
 #slider li {
     position: absolute !important;
     top: 0 !important;
@@ -26,30 +27,33 @@
     -ms-transition: opacity 1s;
     -o-transition: opacity 1s;
     transition: opacity 1s;
-    
+
 }
-#slider img{
+
+#slider img {
     width: 100%;
     height: 100%;
     object-fit: fill;
     border-radius: 10px;
 }
-#arrowPrev, #arrowNext{
+
+#arrowPrev,
+#arrowNext {
     width: 30px;
     height: 30px;
-    background: rgba(214, 204, 204, 0.884);
+    background: rgba(122, 115, 115, 0.795);
     border-radius: 20px;
     cursor: pointer;
     position: absolute;
     top: 50%;
-    left: 20px;
-    z-index: 2; 
-
+    left: 2%;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 #arrowNext {
     left: initial;
-    right: 20px;
+    right: 2%;
 }

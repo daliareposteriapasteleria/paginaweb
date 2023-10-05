@@ -6,6 +6,7 @@
     height: 100vh;
 
 }
+
 #article-txt {
     width: 50%;
     height: 100%;
@@ -28,7 +29,7 @@
     height: 100%;
     padding: 13% 0;
     padding-right: 10%;
-    
+
     display: block;
 }
 
@@ -90,6 +91,7 @@
     #container {
         flex-direction: column;
     }
+
     #article-txt {
         width: 100%;
         height: 50%;
@@ -127,19 +129,22 @@
 
 @media (max-width: 400px) {
 
+    #article-txt {
+        height: 50%;
+        padding: 18% 10% 0 10%;
+    }
+
     #article-carusel {
         width: 100%;
         height: 50%;
-        padding: 0 10% 10% 10%;
-    }
-    #article-txt{
-        padding: 18% 10% 0 10%;
-        display: block;
+        padding: 0% 10%;
+        padding-bottom: 30%;
     }
 
     #article-txt p {
-        font-size: 13px;
+        font-size: 15px;
     }
+
     #btn {
         margin: 10px 0 0 0;
     }
