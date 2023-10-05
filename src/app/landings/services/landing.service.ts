@@ -10,9 +10,12 @@ export class landingService {
             title: 'TORTAS',
             description: '¿Imaginas una torta tan única como tú? En nuestra reposteria, transformamos tus sueños en delicias hechas a medida. Desde bodas hasta cumpleaños, cada torta es una obra de arte personalizada, diseñada exclusivamente para ti. ¡Déjanos transformar tu ocasión especial en un momento inolvidable! Haz clic en "Personalizar Ahora" y comienza el viaje hacia la torta perfecta para ti.',
             urls: [
-                './assets/imgs/cakes/flowers-cake.png',
+                './assets/imgs/cakes/bart-cake.png',
+                './assets/imgs/cakes/comunion-cake.png',
+                './assets/imgs/cakes/minimouse-cake.png',
+                './assets/imgs/cakes/minicake-cake.png',
                 './assets/imgs/cakes/paw-patrol-cake.png',
-                './assets/imgs/cakes/purple-cake.png',
+             
             ],
             txtBtn: 'Personalizar ahora',
             class:'item-cake'
@@ -25,6 +28,7 @@ export class landingService {
             urls: [
                 './assets/imgs/cupcakes/flower-cupcakes.png',
                 './assets/imgs/cupcakes/purple-cupcakes.png',
+                './assets/imgs/cupcakes/chips-cupcakes.png',
             ],
             txtBtn: 'Comprar ahora',
             class:'item-cupcake'
